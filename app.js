@@ -4,7 +4,6 @@ var http = require('https');
 
 
 const menu = require('./menu.json')
-const data = require('./output.json')
 const bodyParser = require('body-parser')
 const { v4: uuidv4 } = require('uuid');
 const {check, validationResult, body } = require('express-validator');
