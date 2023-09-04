@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Beef Brisket Pot Roast",
+        "category": "Beef",
+        "img": "https://www.themealdb.com/images/media/meals/ursuup1487348423.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Peanut Butter Cheesecake",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/qtuuys1511387068.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Peach & Blueberry Grunt",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/ssxvup1511387476.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Grilled Mac and Cheese Sandwich",
+        "category": "Pasta",
+        "img": "https://www.themealdb.com/images/media/meals/xutquv1505330523.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Salted Caramel Cheescake",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/xqrwyr1511133646.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Vegan Chocolate Cake",
+        "category": "Vegan",
+        "img": "https://www.themealdb.com/images/media/meals/qxutws1486978099.jpg",
+        "origin": "American"
+    }
+]

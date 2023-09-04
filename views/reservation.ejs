@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reservation.css">
+    <title>KodeGO Cafe</title>
+</head>
+
+<body>
+    <header>
+        <%- include('header') %>
+    </header>
+    <form action="/reservation" method="post">
+        <div class="container d-flex gap-2">
+            <div class="details_time w-50 d-flex flex-column">
+                <label for="date">Date:</label>
+                <input type="date" name="date" class="form-select" name="date" required>
+
+                <label for="">Number of Diners</label>
+                <select class="form-select" name="diners" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="8">9</option>
+                    <option value="8">10</option>
+                </select>
+                <label for="occasion">Occasion</label>
+                <select class="form-select" name="occasion" required>
+                    <option value="1">Birthday</option>
+                    <option value="2">Anniversary</option>
+                    <option value="3">Engagement</option>
+                    
+                </select>
+                <label for="time">Time</label>
+                <select class="form-select" name="time" required>
+                    <option value="1">5pm</option>
+                    <option value="2">6pm</option>
+                    <option value="3">7pm</option>
+                    <option value="4">8pm</option>
+                    <option value="4">9pm</option>
+                </select>
+            </div>
+            <div class="w-50 d-flex flex-column">
+                <div class="d-flex gap-1">
+                    <div style="flex: 1;">
+                        <label for="name">First Name:</label>
+                        <input type="text" class="form-control" placeholder="First Name" name="fname" required >
+                    </div>
+                    <div style="flex: 1;">
+                        <label for="name">Last Name:</label>
+                        <input type="text" class="form-control" placeholder="Last Name" name="lname" required>
+                    </div>
+                </div>
+                <label for="name">Email:</label>
+                <input type="email" class="form-control" name="email" placeholder="example@gmail.com" required>
+                <label for="note">Special Request</label>
+                <textarea class="form-control h-100" id="floatingTextarea" name="note"></textarea>
+            </div>
+        </div>
+        <% if(!locals.reserved) { %>
+            
+            <input type="submit" value="Make Reservation" class="btn btn-outline-secondary" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; ">
+            <% } else { %>
+
+                <div class="alert alert-success text-center" role="alert">Your Reservation has been confirmed</div>
+              <input type="submit" value="Make Reservation" class="btn btn-outline-secondary " style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; ">
+              
+          <% } %>
+    </form>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+            
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <footer>
+        <%- include('footer') %>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
