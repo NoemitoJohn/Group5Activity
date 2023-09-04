@@ -4,6 +4,7 @@ var http = require('https');
 
 
 const menu = require('./menu.json')
+const data = require('./output.json')
 const bodyParser = require('body-parser')
 const { v4: uuidv4 } = require('uuid');
 const {check, validationResult, body } = require('express-validator');
@@ -36,7 +37,11 @@ app.use(express.static('public'))
 
 app.get('/', (req, res) => {
     
-    res.render('index', {hasUser : req.session.user})
+    console.log(menu.length)
+
+   
+
+    res.render('index', {hasUser : req.session.user, menus : menu })
 })
 
 app.get('/login', (req, res) => {
@@ -87,6 +92,7 @@ app.get('/new_reservation', (req, res) => {
 })
 
 app.get('/reservation', (req, res) => {
+    
     if(req.session.user){
         res.render('reservation', { hasUser : req.session.user})
     }
@@ -145,8 +151,8 @@ function loadData(req, res, next){
             const meal = mealData.meals[0];
             meals.push({ name: meal.strMeal, category: meal.strCategory,  img: meal.strMealThumb , origin: meal.strArea })
             //console.log(meal)
-            const out = JSON.stringify(meals)
-            createJSONfile(out)
+            menuData = JSON.stringify(meals)
+            //createJSONfile(out)
             test = ""
         });
     })

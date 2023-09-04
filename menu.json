@@ -1,8 +1,62 @@
 [
     {
+        "name": "Vegan Chocolate Cake",
+        "category": "Vegan",
+        "img": "https://www.themealdb.com/images/media/meals/qxutws1486978099.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Rocky Road Fudge",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/vtxyxv1483567157.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Key Lime Pie",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/qpqtuu1511386216.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Stovetop Eggplant With Harissa, Chickpeas, and Cumin Yogurt",
+        "category": "Vegetarian",
+        "img": "https://www.themealdb.com/images/media/meals/yqwtvu1487426027.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "New York cheesecake",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/swttys1511385853.jpg",
+        "origin": "American"
+    },
+    {
         "name": "Beef Brisket Pot Roast",
         "category": "Beef",
         "img": "https://www.themealdb.com/images/media/meals/ursuup1487348423.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Pumpkin Pie",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/usuqtp1511385394.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Roasted Eggplant With Tahini, Pine Nuts, and Lentils",
+        "category": "Vegetarian",
+        "img": "https://www.themealdb.com/images/media/meals/ysqrus1487425681.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Kentucky Fried Chicken",
+        "category": "Chicken",
+        "img": "https://www.themealdb.com/images/media/meals/xqusqy1487348868.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Honey Balsamic Chicken with Crispy Broccoli & Potatoes",
+        "category": "Chicken",
+        "img": "https://www.themealdb.com/images/media/meals/kvbotn1581012881.jpg",
         "origin": "American"
     },
     {
@@ -12,9 +66,9 @@
         "origin": "American"
     },
     {
-        "name": "Peach & Blueberry Grunt",
-        "category": "Dessert",
-        "img": "https://www.themealdb.com/images/media/meals/ssxvup1511387476.jpg",
+        "name": "Fruit and Cream Cheese Breakfast Pastries",
+        "category": "Breakfast",
+        "img": "https://www.themealdb.com/images/media/meals/1543774956.jpg",
         "origin": "American"
     },
     {
@@ -24,15 +78,111 @@
         "origin": "American"
     },
     {
+        "name": "Chick-Fil-A Sandwich",
+        "category": "Chicken",
+        "img": "https://www.themealdb.com/images/media/meals/sbx7n71587673021.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Peanut Butter Cookies",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/1544384070.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Hot Chocolate Fudge",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/xrysxr1483568462.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "French Onion Chicken with Roasted Carrots & Mashed Potatoes",
+        "category": "Chicken",
+        "img": "https://www.themealdb.com/images/media/meals/b5ft861583188991.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Salmon Eggs Eggs Benedict",
+        "category": "Breakfast",
+        "img": "https://www.themealdb.com/images/media/meals/1550440197.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "BBQ Pork Sloppy Joes",
+        "category": "Pork",
+        "img": "https://www.themealdb.com/images/media/meals/atd5sh1583188467.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Choc Chip Pecan Pie",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/rqvwxt1511384809.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Chicken Fajita Mac and Cheese",
+        "category": "Chicken",
+        "img": "https://www.themealdb.com/images/media/meals/qrqywr1503066605.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Peach & Blueberry Grunt",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/ssxvup1511387476.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Chocolate Raspberry Brownies",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/yypvst1511386427.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Krispy Kreme Donut",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/4i5cnx1587672171.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Skillet Apple Pork Chops with Roasted Sweet Potatoes & Zucchini",
+        "category": "Pork",
+        "img": "https://www.themealdb.com/images/media/meals/h3ijwo1581013377.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Banana Pancakes",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/sywswr1511383814.jpg",
+        "origin": "American"
+    },
+    {
         "name": "Salted Caramel Cheescake",
         "category": "Dessert",
         "img": "https://www.themealdb.com/images/media/meals/xqrwyr1511133646.jpg",
         "origin": "American"
     },
     {
-        "name": "Vegan Chocolate Cake",
-        "category": "Vegan",
-        "img": "https://www.themealdb.com/images/media/meals/qxutws1486978099.jpg",
+        "name": "Clam chowder",
+        "category": "Starter",
+        "img": "https://www.themealdb.com/images/media/meals/rvtvuw1511190488.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Big Mac",
+        "category": "Beef",
+        "img": "https://www.themealdb.com/images/media/meals/urzj1d1587670726.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Lasagna Sandwiches",
+        "category": "Pasta",
+        "img": "https://www.themealdb.com/images/media/meals/xr0n4r1576788363.jpg",
+        "origin": "American"
+    },
+    {
+        "name": "Pancakes",
+        "category": "Dessert",
+        "img": "https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg",
         "origin": "American"
     }
 ]

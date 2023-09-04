@@ -13,13 +13,21 @@
     <header>
         <%- include('header') %>
     </header>
-    
+    <div class="d-flex flex-wrap gap-1 justify-content-center">
+    <% locals.menus.forEach(function(menu){ %>
+        <div class="card" style="width: 18rem;">
+            <img src="<%= menu.img %>" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><%=menu.name %></h5>
+              <p class="card-text"><%=menu.category%></p>
+              
+              
+            </div>
+          </div>
+      <% }); %>
+    </div>
 
         
-
-        <form action="/new_reservation" method="get">
-            <button class="btn btn-outline-secondary">Make a Reservation </button>
-        </form>
     <footer>
         <%- include('footer') %>
     </footer>
